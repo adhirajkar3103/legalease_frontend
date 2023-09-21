@@ -1,7 +1,6 @@
 import inputTextAtom from "@/atoms/inputAtom";
 import React, { useState } from "react";
 import { useSetRecoilState } from "recoil";
-import { Loader } from "rsuite";
 import Tesseract from "tesseract.js";
 const ImageToText = () => {
   const [image, setImage] = useState(null);

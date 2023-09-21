@@ -8,16 +8,7 @@ const Navbar = () => {
         LegalEase.ai
       </h2>
       <div style={{ display: "flex" }}>
-        <div className="github-btn">
-          <a
-            href="https://github.com/adhirajkar3103/legalease.ai"
-            style={{ color: "black" }}
-            target="_blank"
-          >
-            <FaGithub size={28} />
-          </a>
-        </div>
-        <p className="login-btn">Login</p>
+        {/* <p className="login-btn">Login</p> */}
       </div>
     </div>
   );

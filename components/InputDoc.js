@@ -31,6 +31,7 @@ const InputDoc = () => {
         if(data.error){
           console.log(error)
         }
+        console.log(data)
         setOutput(data.outputData)
       } catch (error) {
         console.log(error)
