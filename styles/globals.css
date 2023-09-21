@@ -84,6 +84,7 @@ button:hover {
     width: 80%;
     height: 100%;
     padding: 10px;
+    padding-bottom: 5rem;
 }
 .textarea{
   margin-bottom: 10px;
@@ -149,4 +150,16 @@ h4{
   padding: 5px;
   background-color: transparent;
   color: #a5c9ca;
+}
+.img-btn{
+  color:#a5c9ca ;
+  border: #A5C9CA 2px solid;
+  width: fit-content;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: inline;
+  margin-left: 1rem;
+}
+.txt-to-input-div{
+  padding-bottom: 1rem;
 }

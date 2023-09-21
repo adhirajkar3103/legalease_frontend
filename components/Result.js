@@ -17,7 +17,7 @@ const Result = () => {
           <option value="bangla">বাংলা</option>
         </select>
       </div>
-      <p>Result will be rendered here in {language}...</p>
+      <h3>Here is the summary of the legal document</h3>
       <p>{output}</p>
     </div>
   );
